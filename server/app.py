@@ -18,5 +18,3 @@ sentiment_url = f"https://www.alphavantage.co/query?function={function}&tickers=
 sentiment_response = requests.get(sentiment_url).json()
 
 print(sentiment_response)
-
-
